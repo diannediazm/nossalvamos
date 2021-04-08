@@ -5,12 +5,12 @@ import './App.css';
 //Pages
 import HomePage from './pages/homepage/homepage.component';
 import IniciativaPage from './pages/iniciativa/iniciativa.component';
-import SalvadorasPage from './pages/salvadoras/salvadoras.component';
-import BlogPage from './pages/blog/blog.component';
+import ContactoPage from './pages/contacto/contacto.component';
 import Motivacion from './pages/motivacion/motivacion.component';
 
 // Component
 import Header from './components/header/header.component';
+import Footer from './components/footer/footer.component';
 
 class App extends React.Component {
   render() {
@@ -20,10 +20,10 @@ class App extends React.Component {
         <Switch>
           <Route exact path='/' component={HomePage}/>
           <Route path='/iniciativa' component={IniciativaPage}/>
-          <Route path='/salvadoras' component={SalvadorasPage}/>
-          <Route path='/blog' component={BlogPage}/>
+          <Route path='/contacto' component={ContactoPage}/>
           <Route path='/motivacion' component={Motivacion}/>
         </Switch>
+        <Footer />
       </div>
     );
   }

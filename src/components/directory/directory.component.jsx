@@ -26,6 +26,24 @@ class Directory extends React.Component {
                     id: 3,
                     linkUrl: 'podcasts'
                 }, 
+                {
+                    title: 'Díselo bonito',
+                    imageUrl: "https://image.freepik.com/foto-gratis/formas-laterales-mujer-sosteniendo-megafono-flores_23-2148405260.jpg",
+                    id: 3,
+                    linkUrl: 'ilustradoras'
+                },
+                {
+                    title: 'Antes muerta que sencilla',
+                    imageUrl: "https://image.freepik.com/foto-gratis/mujer-hablando-megafono-sosteniendo-carton-cartel-yo-tambien_23-2148405263.jpg",
+                    id: 3,
+                    linkUrl: 'skincare'
+                }, 
+                {
+                    title: 'Manualidades',
+                    imageUrl: "https://image.freepik.com/foto-gratis/8-marzo-truenos-etiqueta-rosa_23-2148403546.jpg",
+                    id: 3,
+                    linkUrl: 'manualidades'
+                }                
             ],
         };        
     }
