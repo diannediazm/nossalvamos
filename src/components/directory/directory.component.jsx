@@ -22,7 +22,7 @@ class Directory extends React.Component {
                 },
                 {
                     title: 'Podcasts',
-                    imageUrl: "https://image.freepik.com/foto-gratis/mano-mujer-mostrando-poder-trueno-megafono_23-2148403582.jpg",
+                    imageUrl: "https://image.freepik.com/foto-gratis/8-marzo-discurso-sorprendio-burbuja-megafono_23-2148403561.jpg",
                     id: 3,
                     linkUrl: 'podcasts'
                 }, 
