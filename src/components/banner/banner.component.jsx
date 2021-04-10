@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Background } from '../../assets/banner.svg';
+import { ReactComponent as Background } from '../../assets/images/banner.svg';
 import './banner.styles.scss';
 
 const Banner = () => (
