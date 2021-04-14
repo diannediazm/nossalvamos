@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -6,27 +6,27 @@ import './App.css';
 import HomePage from './pages/homepage/homepage.component';
 import IniciativaPage from './pages/iniciativa/iniciativa.component';
 import ContactoPage from './pages/contacto/contacto.component';
-import Motivacion from './pages/motivacion/motivacion.component';
+import MotivacionPage from './pages/motivacion/motivacion.component';
+import SalvadorasPage from './pages/salvadoras/salvadoras.component';
 
 // Component
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div>
+const App = () => (
+      <Fragment>
         <Header />
-        <Switch>
-          <Route exact path='/' component={HomePage}/>
-          <Route path='/iniciativa' component={IniciativaPage}/>
-          <Route path='/contacto' component={ContactoPage}/>
-          <Route path='/motivacion' component={Motivacion}/>
-        </Switch>
+          <Switch>
+            <Route exact path='/' component={HomePage}/>
+            <Route path='/iniciativa' component={IniciativaPage}/>
+            <Route path='/salvadoras' component={SalvadorasPage}/>
+            <Route path='/contacto' component={ContactoPage}/>
+            <Route path='/motivacion' component={MotivacionPage}/>
+          </Switch>
         <Footer />
-      </div>
-    );
-  }
-};
+      </Fragment>
+);
+
+App.displayName = 'App';
 
 export default App;

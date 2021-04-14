@@ -6,6 +6,8 @@ const Footer = () => (
     <div className='logo'>
        <Logo />
     </div>
-)
+);
+
+Footer.displayName = 'Footer';
 
 export default Footer;

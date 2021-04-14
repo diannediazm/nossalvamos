@@ -20,4 +20,6 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
     </div>
 );
 
+MenuItem.displayName = 'MenuItem';
+
 export default withRouter(MenuItem);

@@ -1,18 +1,19 @@
 import firebase from "firebase/app";
 import 'firebase/database';
 
-const config = {
-    apiKey: "nos-df0ce",
-    authDomain: "nos-df0ce.firebaseapp.com",
-    // For databases not in the us-central1 location, databaseURL will be of the
-    // form https://[databaseName].[region].firebasedatabase.app.
-    // For example, https://your-database-123.europe-west1.firebasedatabase.app
-    databaseURL: "https://databaseName.firebaseio.com",
-    storageBucket: "nos-df0ce.appspot.com"
-  };
-  firebase.initializeApp(config);
+var firebaseConfig = {
+  apiKey: "AIzaSyDHuY0f3EbbR4FKBnSf7L2fS0IZTFpzQ_I",
+  authDomain: "nos-df0ce.firebaseapp.com",
+  databaseURL: "https://nos-df0ce-default-rtdb.firebaseio.com",
+  projectId: "nos-df0ce",
+  storageBucket: "nos-df0ce.appspot.com",
+  messagingSenderId: "652808281000",
+  appId: "1:652808281000:web:a66c68480b59e124421b9d"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
 
-  // Get a reference to the database service
-  const database = firebase.database();
+// Get a reference to the database service
+const database = firebase.database();
 
-  export default firebase;
+export default firebase;

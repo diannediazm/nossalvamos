@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 const Motivacion = () => (
-    <p>API</p>
-)
+    <div></div>
+);
 
 
 export default Motivacion;

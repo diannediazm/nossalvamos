@@ -6,6 +6,8 @@ const Banner = () => (
     <div className='banner'>
         <Background />
     </div>
-)
+);
+
+Banner.displayName = 'Banner';
 
 export default Banner;
