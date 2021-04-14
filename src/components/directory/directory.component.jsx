@@ -1,5 +1,6 @@
 import React from 'react';
 import SalvadorasList from '../salvadoras-list/salvadoras-list.component';
+import Motivacion from '../../pages/motivacion/motivacion.component';
 import './directory.styles.scss';
 
 
@@ -65,7 +66,8 @@ class Directory extends React.Component {
         return (
             <div className='directory-menu'>
                 {this.state.sections.map(({id, ...otherSectionProps}) => (
-                    <SalvadorasList key={id} {...otherSectionProps} />
+                    <SalvadorasList key={id} {...otherSectionProps} />,
+                    <Motivacion key={category} {...otherSectionProps}/>
                 ))}
             </div>
         );

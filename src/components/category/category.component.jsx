@@ -30,13 +30,13 @@ class Category extends React.Component {
                     title: 'Díselo bonito',
                     imageUrl: "https://image.freepik.com/foto-gratis/formas-laterales-mujer-sosteniendo-megafono-flores_23-2148405260.jpg",
                     id: 4,
-                    linkUrl: 'ilustradoras'
+                    linkUrl: 'artistas'
                 },
                 {
                     title: 'Antes muerta que sencilla',
                     imageUrl: "https://image.freepik.com/foto-gratis/mujer-hablando-megafono-sosteniendo-carton-cartel-yo-tambien_23-2148405263.jpg",
                     id: 5,
-                    linkUrl: 'skincare'
+                    linkUrl: 'cutis'
                 }, 
                 {
                     title: 'Manualidades',
