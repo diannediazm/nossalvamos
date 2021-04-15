@@ -25,7 +25,7 @@ const SALVADORAS_DATA = [
                 describe: 'Soy Winnie Gana, Fitness Nutrition Coach, Profesora de Yoga y vivo en Santiago de Chile. Gracias al yoga entendí realmente cómo funciona el cuerpo. Luego aprendí a comer y me dí cuenta de mi pasión en la vida: Ayudar a mujeres a lograr sus objetivos y sentirse cómodas con sus cuerpos.',
                 web: 'https://winniegana.com/',
             },
-        ]
+        ],
     },
     {
         id: 2,
@@ -53,7 +53,7 @@ const SALVADORAS_DATA = [
                 describe: '"Amo a mi hijo , amo lo que hago , lucho cada dia por ser mejor y marcar la diferencia, Coach / Instructora de PILATES"',
                 web: 'https://www.instagram.com/greskelly_pilatista/?hl=es'
             },
-        ]
+        ],
     },
     {
         id: 3,
@@ -89,7 +89,7 @@ const SALVADORAS_DATA = [
                 web: 'https://open.spotify.com/show/1uWZ9faOcoN6VX5gZNeiak?si=GVj4oYFFRoWs3TgLQCvnsw',
             },
 
-        ]
+        ],
     },
     {
         id: 4,
@@ -117,7 +117,7 @@ const SALVADORAS_DATA = [
                 describe: 'Artista',
                 web: 'https://www.instagram.com/esmeferretti/?hl=es-la',
             }
-        ]
+        ],
 
     },
     {
@@ -146,7 +146,7 @@ const SALVADORAS_DATA = [
                 describe: 'Beauty, Makeup, Lifestyle',
                 web: 'https://www.instagram.com/holamoyra/?hl=es-la', 
             },
-        ]
+        ],
     },
     {
         id: 6,

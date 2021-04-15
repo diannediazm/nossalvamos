@@ -1,6 +1,5 @@
 import React from 'react';
 import SalvadorasList from '../salvadoras-list/salvadoras-list.component';
-import Motivacion from '../../pages/motivacion/motivacion.component';
 import './directory.styles.scss';
 
 
@@ -49,7 +48,7 @@ class Directory extends React.Component {
                     linkUrl: 'https://www.planetadelibros.cl/libro-skincare-para-principiantes/332113',
                     id: 5,
                     category: 'skincare' 
-                },
+                },//
                 {
                     name: 'Bordaetumadre',
                     imageUrl: 'https://crehana-public-catalog.imgix.net/images/courses/promo-images/1f41e1a7/b1feea1f.jpg',
@@ -66,8 +65,7 @@ class Directory extends React.Component {
         return (
             <div className='directory-menu'>
                 {this.state.sections.map(({id, ...otherSectionProps}) => (
-                    <SalvadorasList key={id} {...otherSectionProps} />,
-                    <Motivacion key={category} {...otherSectionProps}/>
+                    <SalvadorasList key={id} {...otherSectionProps} />
                 ))}
             </div>
         );

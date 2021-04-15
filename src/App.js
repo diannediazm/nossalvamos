@@ -6,8 +6,13 @@ import './App.css';
 import HomePage from './pages/homepage/homepage.component';
 import IniciativaPage from './pages/iniciativa/iniciativa.component';
 import ContactoPage from './pages/contacto/contacto.component';
-import MotivacionPage from './pages/motivacion/motivacion.component';
 import SalvadorasPage from './pages/salvadoras/salvadoras.component';
+import MotivacionPage from './pages/motivacion/motivacion.component';
+import EjercicioPage from './pages/ejercicio/ejercicio.component';
+import PodcastsPage from './pages/podcasts/podcasts.component';
+import ArtistasPage from './pages/artistas/artistas.components';
+import CutisPage from './pages/cutis/cutis.component';
+import ManualidadesPage from './pages/manualidades/manualidades.component';
 
 // Component
 import Header from './components/header/header.component';
@@ -22,6 +27,11 @@ const App = () => (
             <Route path='/salvadoras' component={SalvadorasPage}/>
             <Route path='/contacto' component={ContactoPage}/>
             <Route path='/motivacion' component={MotivacionPage}/>
+            <Route path='/ejercicio' component={EjercicioPage}/>
+            <Route path='/podcasts' component={PodcastsPage}/>
+            <Route path='/artistas' component={ArtistasPage}/>
+            <Route path='/cutis' component={CutisPage}/>
+            <Route path='/manualidades' component={ManualidadesPage}/>
           </Switch>
         <Footer />
       </Fragment>
