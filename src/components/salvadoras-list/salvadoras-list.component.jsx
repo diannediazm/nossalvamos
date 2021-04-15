@@ -4,10 +4,10 @@ import './salvadoras-list.styles.scss';
 
 const SalvadorasList =({title, items}) => (
   <div className='lista'>
-    <h1>{title.toUpperCase()}</h1>
+    <h1 className='lista-text'>{title.toUpperCase()}</h1>
     <div className='preview'>
       {items
-        .filter((items, idx) => idx < 4)
+        .filter((items, idx) => idx < 3)
         .map(({ id, ...otherItemProps }) => (
           <SalvadorasItem key={id} {...otherItemProps} />
         ))}

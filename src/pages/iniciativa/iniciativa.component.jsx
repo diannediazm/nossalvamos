@@ -1,7 +1,10 @@
 import React from 'react';
+import Superwoman from '../../components/superwoman/superwoman.component';
 
 const IniciativaPage = () => (
-    <p>Hola soy la explicación</p>
+    <div>
+        <Superwoman />
+    </div>
 )
 
 

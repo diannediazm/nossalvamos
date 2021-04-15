@@ -76,13 +76,6 @@ const SALVADORAS_DATA = [
             },
             {
                 id: 9,
-                name: 'El club de lecturas de las Amikas',
-                imageUrl: 'https://i.scdn.co/image/1be9a304d39c8dac0070f8cc189a8112953415bb',
-                describe: 'Tamy y Coté llegan a tus audífonos cada dos semanas para analizar sus libros favoritos (y los no tanto) sin prejuicios y con mucho fomento lector. Farándula, biografías, sagas adolescentes, clásicos, placeres culpables, risas y mucho más.',
-                web: 'https://open.spotify.com/show/6JhoHYJYuv7Uza7OgeEyER?si=-HXul2thR1O68ycB1pXPAQ',
-            },
-            {
-                id: 10,
                 name: 'Café con Nata',
                 imageUrl: 'https://spotlight.radiopublic.com/images/thumbnail?url=http%3A%2F%2Fstatic-1.ivoox.com%2Fcanales%2F0%2F1%2F1%2F3%2F3971554413110_XXL.jpg',
                 describe: 'Monos de la nación: de lunes a viernes entre 9 y 10:30 de la mañana, nos dirigimos a ustedes junto a Natalia Valdebenito y su especial mirada sobre lo que pasa en Chile y el mundo. Risas, canciones y una revisión de las noticias más importantes junto a nuestra editora Sol Abarca. Además, la sapiencia de nuestros panelistas: Fernanda Pancito Toledo, Nicolás Montenegro, El Moroch y Raffa di Girólamo.',
@@ -97,21 +90,21 @@ const SALVADORAS_DATA = [
         routeName: 'artistas',
         items: [
             {
-                id: 11,
+                id: 10,
                 name: 'Señorita Buena Presencia',
                 imageUrl: 'https://bibliotecaviva.cl/wp-content/uploads/2019/04/senorita-buena-presencia.jpg',
                 describe: 'Viñetas que cuestionan el estereotipo femenino y las convenciones sobre las relaciones sentimentales. Las mujeres de estas viñetas pueden ser indecisas o contradictorias, pero nunca dejan de cuestionar -con un entrañable pesimismo- las convenciones y estereotipos femeninos. Señorita buena presencia es un conjunto de ilustraciones que alertan sobre las concepciones machistas naturalizadas en la sociedad a través de un humor ingenioso y desfachatado. Una radiografía contemporánea que revela a Bruta como una de las narradoras gráficas más talentosas y despiertas de su generación.',
                 web: 'https://www.instagram.com/bruta_queesbruta/?hl=es',
             },
             {
-                id: 12,
+                id: 11,
                 name: 'Carnero de Metal',
                 imageUrl: 'https://image.freepik.com/foto-gratis/pinceles-manchados-pintura_23-2148002368.jpg',
                 describe: 'Talleres Acuarela Gratis. Charlas de Arte. Clases por zoom. Venta de obras. Arte y cultura para todxs',
                 web: 'https://www.instagram.com/carnerodemetal/?hl=es-la',
             },
             {
-                id: 13,
+                id: 12,
                 name: 'Esmeferretti',
                 imageUrl: 'https://images.squarespace-cdn.com/content/v1/5da0cc1ca3bbd060f5235e8d/1575845438963-5XEM5G2SEBN981XVKAYL/ke17ZwdGBToddI8pDm48kMXRibDYMhUiookWqwUxEZ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0luUmcNM2NMBIHLdYyXL-Jww_XBra4mrrAHD6FMA3bNKOBm5vyMDUBjVQdcIrt03OQ/_MG_2272.jpg?format=500w',
                 describe: 'Artista',
@@ -126,21 +119,21 @@ const SALVADORAS_DATA = [
         routeName: 'cutis',
         items: [
             {
-                id: 14,
+                id: 13,
                 name: 'Valeria Luna',
                 imageUrl: 'https://dojiw2m9tvv09.cloudfront.net/10744/product/portada_skincare-para-principiantes_valeria-luna_2021031621246549.jpg',
                 describe: 'Mimarse es muy necesario en estos tiempos de caos e incertidumbre. Te invito a transformar tu rutina de skincare en algo mucho más personal y curativo, para que logres ser la mejor versión de ti misma',
                 web: 'https://www.planetadelibros.cl/libro-skincare-para-principiantes/332113', 
             },
             {
-                id: 15,
+                id: 14,
                 name: 'Magdalena De Soto',
                 imageUrl: 'https://static.wixstatic.com/media/109830_aa4b0ee1479f43da847d6f832fa9b393~mv2_d_4016_6016_s_4_2.jpg/v1/fill/w_640,h_482,al_c,q_80,usm_0.66_1.00_0.01/109830_aa4b0ee1479f43da847d6f832fa9b393~mv2_d_4016_6016_s_4_2.webp',
                 describe: 'Soy Magdalena DeSoto, maquilladora, peinadora y publicista profesional. Amo lo que hago y lo demuestro en cada alumna, novia y clienta que pasa por mi estudio. Soy muy perfeccionista a la hora de trabajar y siempre estoy alerta al más mínimo detalle.',
                 web: 'https://www.magdalenadesoto.cl/', 
             },
             {
-                id: 16,
+                id: 15,
                 name: 'Moyra Chellew',
                 imageUrl: 'https://moyrachellew.files.wordpress.com/2019/01/4923823c-f1a7-404c-a235-b200342d276d.jpg?w=1140&h=500&crop=1',
                 describe: 'Beauty, Makeup, Lifestyle',
@@ -154,21 +147,21 @@ const SALVADORAS_DATA = [
         routeName: 'manualidades',
         items: [
             {
-                id: 17,
+                id: 16,
                 name: 'Bordaetumadre',
                 imageUrl: 'https://crehana-public-catalog.imgix.net/images/courses/promo-images/1f41e1a7/b1feea1f.jpg',
                 describe: 'Chuchás y groserías escondidas en el eufemismo del bordado a mano',
                 web: 'https://www.instagram.com/bordaetumadre/?hl=es-la',
             },
             {
-                id: 18,
+                id: 17,
                 name: 'Pasionaria Pedrería',
                 imageUrl: 'https://assets1.domestika.org/course-images/000/009/461/9461-big.jpg',
                 describe: 'Bordadora de pedrería contemporánea',
                 web: 'https://www.instagram.com/pasionaria.pedreria/?hl=es-la',
             },
             {
-                id: 19,
+                id: 18,
                 name: 'Insanity Nice',
                 imageUrl: 'https://mexicorutamagica.mx/wp-content/uploads/2020/04/11-1024x571.jpg',
                 describe: 'Diseñadora UCH y bordadora. Profe en Domestika. Podcaster en loquecallamoslascrafters. Bordando puppies since 2015.',
