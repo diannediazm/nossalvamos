@@ -7,14 +7,14 @@ const SALVADORAS_DATA = [
             {
                 id: 1,
                 name: 'Carmen Castillo',
-                imageUrl: 'https://www.planetadelibros.cl/usuaris/libros/fotos/326/m_libros/portada_weona-tu-podi-edicion-aniversario_carmen-castillo_202010221905.jpg',
+                imageUrl: 'https://cdn.shopify.com/s/files/1/0266/7151/3705/products/Brilla_weona_brilla_cub_800x.jpg?v=1618418215',
                 describe: 'Mujer, mamá (en ese orden), relacionadora pública por descarte, directora de Mujeres que Brillan, Brilla la Tiendita y Brillemos Comunicaciones. Empresaria adicta al trabajo y al desafío, irreverente, deslenguada, motivadora innata. Se ha construido de cagazo en cagazo. Conocida por sus frases de Google maquilladas a su estilo, que llegan directo al corazón. Entre las más conocidas, #weonatupodi y #soymiputajefa, se han transformado en bandera de lucha para la difusión de su mensaje. Le pedimos algo formal para esta parte, pero nos envió esto y sí, esto es ella.',
                 web: 'https://brillalatiendita.cl/',
             },
             {
                 id: 2,
                 name: 'Valentina Urzua',
-                imageUrl: 'https://lh3.googleusercontent.com/proxy/3A-BH6R5_Rj2SuWh6kKI0GkpC56Z3o4Epn_hecdgjqY7ciYovXC4eusFBbcFv0PeETETblGnY1YPw-WPI9QCNmIynxCSITPK9o4kVSkxZWqmrBxksCl3',
+                imageUrl: 'http://cdn.shopify.com/s/files/1/1752/2705/products/7ae1a470-b727-4110-8a3a-f7acf082d0d0_grande.jpg?v=1604322744',
                 describe: '¡Hola! Mi nombre es Valentina Urzúa. Tengo 30 años, soy la fundadora de Soy Tendencia, un proyecto de viajes y moda donde vamos recopilando las mejores tendencias del mundo para ti.',
                 web: 'https://www.instagram.com/soytendencia/?hl=es-la',
             },
