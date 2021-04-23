@@ -1,23 +1,39 @@
+.MuiPaper-root {
+  background-color: #c4b2e6 !important;
+  border-radius: 50px !important;
+  position: relative;
+}
 .paper {
   padding: 16px;
   text-align: center;
-  height: 700px;
   margin-bottom: 20px;
+  background-color: #c4b2e6;
+
+  .title-salvadora {
+    color: white;
+  }
 
   .image-salvadoras {
     max-width: 50%;
+    border-radius: 50px;
   }
 
   .describe {
     font-weight: 400;
     text-align: justify;
+    color: white;
+    padding-bottom: 20px;
   }
 
   .button {
     padding: 7px 14px;
-    background-color: blueviolet;
+    background-color: white;
     border-radius: 50px;
     border-style: none;
-    color: white;
+    color: #c4b2e6;
+    font-weight: bold;
+    position: absolute; /*El div será ubicado con relación a la pantalla*/
+    bottom: 10px; /*Abajo deje un espacio de 0px*/
+    z-index: 0;
   }
 }

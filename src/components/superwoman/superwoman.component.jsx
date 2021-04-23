@@ -10,7 +10,7 @@ const Superwoman = () => {
   // this useEffect will run once
   // similar to componentDidMount()
   useEffect(() => {
-    fetch("https://www.superheroapi.com/api.php/10224634608188146/720")
+    fetch('https://www.superheroapi.com/api.php/10224634608188146/720')
       .then((res) => res.json())
       .then(
         (result) => {
@@ -33,8 +33,10 @@ const Superwoman = () => {
   } else {
     return (
       <Fragment>
-          {id.name}
-          
+        <h2>RANDOM FACT</h2>
+        <p>¿Sabes quién es la primera superheroína de la historia?</p>
+        <p>Nombre: {id.name}</p>
+             
       </Fragment>
           
           

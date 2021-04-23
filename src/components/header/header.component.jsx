@@ -12,7 +12,7 @@ const Header = () => (
             <Link className='nav' to='/iniciativa'>
             INICIATIVA
             </Link>
-            <Link className='nav' to='/salvadoras'>
+            <Link className='nav-salvadoras' to='/salvadoras'>
             SALVADORAS
             </Link>
             <Link className='nav' to='/contacto'>
