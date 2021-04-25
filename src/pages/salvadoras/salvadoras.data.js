@@ -63,7 +63,7 @@ const SALVADORAS_DATA = [
             {
                 id: 7,
                 name: 'Con la ayuda de mis Amikas',
-                imageUrl: 'https://static.wikia.nocookie.net/amikas/images/c/c2/Con_la_ayuda_de_mis_amikas.jpg/revision/latest?cb=20190123175506&path-prefix=es',
+                imageUrl: 'https://media.biobiochile.cl/wp-content/uploads/2019/03/captura-de-pantalla-2019-03-22-02-05-55.png',
                 describe: 'Valeria Luna y María José Castro analizan lo que pasa en la semana en Instagram y conversan sobre diferentes temas con la ayuda de sus amikas de las redes sociales.',
                 web: 'https://open.spotify.com/show/2k4RFiH4ykBku9hfQTChdC?si=DEmB534vRQOozrlUK2dBOA',
             },

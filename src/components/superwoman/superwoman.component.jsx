@@ -34,8 +34,9 @@ const Superwoman = () => {
     return (
       <Fragment>
         <h2>RANDOM FACT</h2>
-        <p>¿Sabes quién es la primera superheroína de la historia?</p>
-        <p>Nombre: {id.name}</p>
+        <p>¿Sabes quién es la primera SALVADORA de la historia?</p>
+        <p>Nombre: {id.name} </p>
+        
              
       </Fragment>
           

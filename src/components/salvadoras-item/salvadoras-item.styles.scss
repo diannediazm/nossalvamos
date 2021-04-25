@@ -1,7 +1,6 @@
 .MuiPaper-root {
   background-color: #c4b2e6 !important;
   border-radius: 50px !important;
-  position: relative;
 }
 .paper {
   padding: 16px;
@@ -14,7 +13,8 @@
   }
 
   .image-salvadoras {
-    max-width: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 50px;
   }
 
@@ -32,7 +32,6 @@
     border-style: none;
     color: #c4b2e6;
     font-weight: bold;
-    position: absolute; /*El div será ubicado con relación a la pantalla*/
     bottom: 10px; /*Abajo deje un espacio de 0px*/
     z-index: 0;
   }

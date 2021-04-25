@@ -1,20 +1,21 @@
-import React from 'react';
-import SalvadorasItem from '../salvadoras-item/salvadoras-item.component';
-import './salvadoras-list.styles.scss';
+import React from "react";
+import Grid from "@material-ui/core/Grid";
+import SalvadorasItem from "../salvadoras-item/salvadoras-item.component";
+import "./salvadoras-list.styles.scss";
 
-const SalvadorasList =({title, items}) => (
-  <div className='lista'>
-    <h1 className='lista-text'>{title.toUpperCase()}</h1>
-    <div className='preview'>
-      {items
-        .filter((items, idx) => idx < 3)
-        .map(({ id, ...otherItemProps }) => (
+const SalvadorasList = ({ title, items }) => (
+  <Grid container>
+    <div className="lista">
+      <h1 className="lista-text">{title.toUpperCase()}</h1>
+      <div>
+        {items.map(({ id, ...otherItemProps }) => (
           <SalvadorasItem key={id} {...otherItemProps} />
         ))}
+      </div>
     </div>
-  </div>
+  </Grid>
 );
 
-SalvadorasList.displayName = 'SalvadorasList';
+SalvadorasList.displayName = "SalvadorasList";
 
 export default SalvadorasList;
