@@ -1,4 +1,5 @@
 import React, { useState, useEffect, Fragment } from "react";
+import { Grid } from "@material-ui/core";
 import "./superwoman.styles.scss";
 
 const Superwoman = () => {
@@ -32,15 +33,7 @@ const Superwoman = () => {
     getData();
   }, []);
 
-  const {
-    name,
-    powerstats,
-    biography,
-    appearance,
-    work,
-    connections,
-    image,
-  } = data;
+  const { name, biography, appearance, work, connections, image } = data;
 
   console.log(data);
 
@@ -50,48 +43,33 @@ const Superwoman = () => {
     return <div>Loading...</div>;
   } else {
     return (
-      <Fragment>
-        <h2>RANDOM FACT</h2>
-        <p>¿Sabes quién es la primera SALVADORA de la historia?</p>
-        <p>Nombre: {name} </p>
-        <p>Inteligencia: {powerstats.intelligence}</p>
-        <p>Fuerza: {powerstats.strength}</p>
-        <p>Velocidad: {powerstats.speed}</p>
-        <p>Durabilidad: {powerstats.durability}</p>
-        <p>Poder: {powerstats.power}</p>
-        <p>Combate: {powerstats.combat}</p>
-        <p>Nombre completo: {biography["full-name"]}</p>
-        <p>Alter egos: {biography["alter-egos"]}</p>
-        <p>Alias</p>
-        <ul>
-          {biography.aliases.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-        <p>Lugar de nacimiento: {biography["place-of-birth"]}</p>
-        <p>Primera aparición: {biography["first-appearance"]}</p>
-        <p>Editora: {biography.publisher}</p>
-        <p>Alineación: {biography.alignment}</p>
-        <p>Género: {appearance.gender}</p>
-        <p>Raza: {appearance.race}</p>
-        <p>Altura:</p>
-        <ul>
-          {appearance.height.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-        <p>Peso:</p>
-        <ul>
-          {appearance.weight.map((item, index) => (
-            <li key={index}>{item}</li>
-          ))}
-        </ul>
-        <p>Color de ojos: {appearance["eye-color"]}</p>
-        <p>Color de cabello: {appearance["hair-color"]}</p>
-        <p>Ocupación: {work.occupation}</p>
-        <p>Afiliación grupal: {connections["group-affiliation"]}</p>
-        <p>Parientes: {connections.relatives}</p>
-        <img src={image.url} alt="" />
+      <Fragment >
+        <Grid container spacing={3} >
+          <Grid item xs={12} sm={6} md={6} lg={6}>
+            <h2>RANDOM FACT</h2>
+            <p>
+              ¿Sabes quién es la primera <b>SALVADORA</b> superheroína de la historia?
+            </p>
+            <p><b>Nombre:</b> {name} </p>
+            <p><b>Nombre completo:</b> {biography["full-name"]}</p>
+            <p><b>Alias:</b></p>
+            <ul>
+              {biography.aliases.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+            <p><b>Lugar de nacimiento:</b> {biography["place-of-birth"]}</p>
+            <p><b>Primera aparición: </b>{biography["first-appearance"]}</p>
+            <p><b>Editora: </b>{biography.publisher}</p>
+            <p><b>Género:</b> {appearance.gender}</p>
+            <p><b>Ocupación:</b> {work.occupation}</p>
+            <p><b>Afiliación grupal:</b> {connections["group-affiliation"]}</p>
+            <p><b>Parientes:</b> {connections.relatives}</p>
+          </Grid>
+          <Grid item xs={12} sm={6} md={6} lg={6}>
+            <img src={image.url} alt="" className='superwoman-img' />
+          </Grid>
+        </Grid>
       </Fragment>
     );
   }
