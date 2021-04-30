@@ -21,7 +21,7 @@ const SALVADORAS_DATA = [
             {
                 id: 3,
                 name: 'Winnie Gana',
-                imageUrl: 'https://winniegana.com/wp-content/uploads/2020/04/titulo-sola.jpg',
+                imageUrl: 'https://winniegana.com/wp-content/uploads/2020/06/Ayurveda.jpg',
                 describe: '"Soy Winnie Gana, Fitness Nutrition Coach, Profesora de Yoga y vivo en Santiago de Chile. Gracias al yoga entendí realmente cómo funciona el cuerpo. Luego aprendí a comer y me dí cuenta de mi pasión en la vida: Ayudar a mujeres a lograr sus objetivos y sentirse cómodas con sus cuerpos."',
                 web: 'https://winniegana.com/',
             },
@@ -48,10 +48,10 @@ const SALVADORAS_DATA = [
             },
             {
                 id: 6,
-                name: 'Greskelly',
-                imageUrl: 'https://mi.appfitme.com/Img/Usuarios/Greskelly.png',
-                describe: '"Amo a mi hijo , amo lo que hago , lucho cada dia por ser mejor y marcar la diferencia, Coach / Instructora de PILATES"',
-                web: 'https://www.instagram.com/greskelly_pilatista/?hl=es'
+                name: 'Casa Pilates',
+                imageUrl: 'https://static.wixstatic.com/media/9d04ff_bdfd5b7342bd4a8ca0e3576808337b96~mv2.jpg/v1/fill/w_640,h_360,al_c,q_80,usm_0.66_1.00_0.01/9d04ff_bdfd5b7342bd4a8ca0e3576808337b96~mv2.webp',
+                describe: '"En casapilates llevamos más de 10 años haciendo pilates reformer, pilates para embarazadas, clases de pilates presenciales y online. Encontrarás las mejores clases personalizadas junto a un tremendo equipo de profesionales conformados por Kinesiólogos y profesores de Educación Física. Conoce el mundo pilates con nosotros, agenda tu primera clase gratis. Visítanos en nuestras sedes de Las Condes, Ñuñoa y Providencia ¡Te esperamos!"',
+                web: 'https://www.casapilates.cl/'
             },
         ],
     },
@@ -163,7 +163,7 @@ const SALVADORAS_DATA = [
             {
                 id: 18,
                 name: 'Insanity Nice',
-                imageUrl: 'https://mexicorutamagica.mx/wp-content/uploads/2020/04/11-1024x571.jpg',
+                imageUrl: 'https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1578102483/content-items/003/572/155/7888180C-DFC2-4D74-BF7D-9B8EBC2EB8B2-original.JPG?1578102483',
                 describe: 'Diseñadora UCH y bordadora. Profe en Domestika. Podcaster en loquecallamoslascrafters. Bordando puppies since 2015.',
                 web: 'https://www.instagram.com/insanitynice/?hl=es-la',
             },
