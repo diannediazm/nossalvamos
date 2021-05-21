@@ -1,3 +1,12 @@
+# Nos Salvamos
+
+Nos Salvamos es una iniciativa que pretende armar una vitrina de mujeres talentosas en diversos ámbitos. Un tipo repositorio que esté dispuesto para cada vez que alguien necesite algún tipo de ayuda, ya sea, relajarse haciendo ejercicio, motivarse con charlistas, hacer manualidades y mucho más. Mujeres ayudando a mujeres en momentos de dificultad y superación.
+
+En la aplicación se encuentra este repositorio separado por categorías y también, en la página de "iniciativa" se hace un llamado a una API para dar a conocer quién fue la primera Salvadora estilo comic.
+
+Se trabajó esmeradamente en un diseño que resultara acogedor e invitara a quedarse en el sitio. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

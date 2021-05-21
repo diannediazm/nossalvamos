@@ -17,6 +17,7 @@ import ManualidadesPage from './pages/manualidades/manualidades.component';
 // Component
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
+import NotFound from "./components/NotFound/index";
 
 const App = () => (
       <Fragment>
@@ -32,6 +33,7 @@ const App = () => (
             <Route path='/artistas' component={ArtistasPage}/>
             <Route path='/cutis' component={CutisPage}/>
             <Route path='/manualidades' component={ManualidadesPage}/>
+            <Route component={NotFound} />
           </Switch>
         <Footer />
       </Fragment>
