@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 20px 40px;
 }
 
@@ -8,3 +8,19 @@ a {
   color: black;
 }
 
+.message {
+  text-align: center;
+  margin: 40px;
+}
+
+.buttonPrimary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #c4b2e6 !important;
+}
