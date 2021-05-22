@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
   root: {
     "& .MuiTextField-root": {
       margin: theme.spacing(1),
-      width: "60ch",
     },
   },
 }));
@@ -28,7 +27,7 @@ export default function FormPropsTextFields() {
             nuestra web.
           </p>
 
-          <div>
+          <div className="inputs">
             <TextField
               required
               id="outlined-required"
@@ -79,6 +78,4 @@ export default function FormPropsTextFields() {
       </form>
     </Grid>
   );
-};
-
- 
+}
