@@ -1,6 +1,7 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { withRouter } from "react-router-dom";
+import PropTypes from 'prop-types';
 import "./menu-item.styles.scss";
 
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
@@ -21,6 +22,10 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
     </div>
   </Grid>
 );
+
+MenuItem.propTypes = {
+  personProp: PropTypes.instanceOf(MenuItem)
+}
 
 MenuItem.displayName = "MenuItem";
 

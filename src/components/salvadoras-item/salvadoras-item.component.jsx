@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Paper } from "@material-ui/core";
+import PropTypes from 'prop-types';
 import "./salvadoras-item.styles.scss";
 
 const SalvadorasItem = ({ name, imageUrl, describe, web }) => (
@@ -14,6 +15,10 @@ const SalvadorasItem = ({ name, imageUrl, describe, web }) => (
     </Paper>
   </Grid>
 );
+
+SalvadorasItem.propTypes = {
+  children: PropTypes.element.isRequired
+}
 
 export default SalvadorasItem;
 

@@ -1,6 +1,8 @@
 import React, { useState, useEffect, Fragment } from "react";
 import { Grid } from "@material-ui/core";
+import PropTypes from 'prop-types';
 import "./superwoman.styles.scss";
+
 
 const Superwoman = () => {
   const [error, setError] = useState(null);
@@ -73,6 +75,11 @@ const Superwoman = () => {
       </Fragment>
     );
   }
+  
 };
+
+Superwoman.PropTypes = {
+  nodeProp: PropTypes.node
+}
 
 export default Superwoman;
